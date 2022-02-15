@@ -1,0 +1,68 @@
+main {
+    box-shadow: 5px 5px 25px #d9d9d9;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+}
+
+.shipping-icon {
+    height: 10%;
+    width: 10%;
+    margin-bottom: -3px;
+}
+.image-container {
+    display: flex;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+main > section > h2 {
+    font-size: 40pt;
+}
+.shipping-details > p {
+    font-size: 20pt;
+}
+
+.shipping-details > table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1em;
+}
+
+table > tr:last-child {
+    border-top: 1px solid #63d1ff;
+    font-weight: bold;
+    font-size: 18pt;
+}
+.shipping-details > table th {
+    text-align: left;
+    font-weight: bold;
+}
+
+/* .content  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px black;
+} */
+/* 
+.shipping-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shipping-icon {
+    height: 25%;
+}
+
+svg {
+    height: 75%;
+}
+
+h2, p {
+    display: inline-block;
+} */

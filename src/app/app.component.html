@@ -1,34 +1,34 @@
 <main>
   <section class="image-container">
-    <img class="hero-image" src="../assets/undraw_order_confirmed_re_g0if.svg">
+    <img alt="hero image" i18n-alt class="hero-image" src="assets/undraw_order_confirmed_re_g0if.svg">
   </section>
   <section class="shipping-details">
-    <h2>
+    <h2 i18n>
       Your order is on its way!
-      <img class="shipping-icon" src="../assets/noun-shipping-4326216-63D1FF.png">
+      <img alt="shipping icon" i18n-alt class="shipping-icon" src="assets/noun-shipping-4326216-63D1FF.png">
     </h2>
-    <p>
+    <p i18n>
       Thank you for shopping with us and your order
       has been processed.
     </p>
     <table>
       <tr>
-        <th>Item</th>
-        <th>Qty</th>
-        <th>Date</th>
-        <th>Amount</th>
+        <th i18n>Item</th>
+        <th i18n>Qty</th>
+        <th i18n>Date</th>
+        <th i18n>Amount</th>
       </tr>
       <tr>
         <td>Big box item</td>
         <td>1</td>
-        <td>05/01/2022</td>
-        <td>$129</td>
+        <td>{{"05/01/2022" | date}}</td>
+        <td>{{129 | currency}}</td>
       </tr>
       <tr>
         <td></td>
         <td></td>
-        <td class="total-amount-label">Total Amount</td>
-        <td class="total-amount">$129</td>
+        <td i18n class="total-amount-label">Total Amount</td>
+        <td class="total-amount">{{129 | currency}}</td>
       </tr>
     </table>
   </section>

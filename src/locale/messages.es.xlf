@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="3277059772153279197" datatype="html">
+        <source>hero image</source>
+        <target>imagen de héroe</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4963770382876927129" datatype="html">
+        <source> Your order is on its way! <x id="TAG_IMG" ctype="image" equiv-text="&lt;img alt=&quot;shipping icon&quot; i18n-alt class=&quot;shipping-icon&quot; src=&quot;../assets/noun-shipping-4326216-63D1FF.png&quot;&gt;"/></source>
+        <target> ¡Su pedido está en camino! <x id="TAG_IMG" ctype="image" equiv-text="&lt;img alt=&quot;shipping icon&quot; i18n-alt class=&quot;shipping-icon&quot; src=&quot;../assets/noun-shipping-4326216-63D1FF.png&quot;&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="183871222561584409" datatype="html">
+        <source>shipping icon</source>
+        <target>icono de envío</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="686693237118040455" datatype="html">
+        <source> Thank you for shopping with us and your order has been processed. </source>
+        <target> Gracias por comprar con nosotros y su pedido ha sido procesado. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8075168556531069883" datatype="html">
+        <source>Item</source>
+        <target>Articulo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7826783489111304264" datatype="html">
+        <source>Qty</source>
+        <target>Cant.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3973931101896534797" datatype="html">
+        <source>Date</source>
+        <target>Fecha</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6533918067030990396" datatype="html">
+        <source>Amount</source>
+        <target>La suma</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="112783260724635106" datatype="html">
+        <source>Total Amount</source>
+        <target>cantidad total</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1737753151350322492" datatype="html">
+        <source><x id="PH" equiv-text="this.title"/></source>
+        <target>Recibo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -4,6 +4,15 @@
   "newProjectRoot": "projects",
   "projects": {
     "i18n-receipt-demo": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "es-PR": {
+            "translation": "src/locale/messages.es.xlf",
+            "baseHref": "es-PR/"
+          }
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,6 +26,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": [
+              "es-PR"
+            ],
             "outputPath": "dist/i18n-receipt-demo",
             "index": "src/index.html",
             "main": "src/main.ts",

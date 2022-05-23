@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'Your Receipt';
 
   constructor(private titleService: Title) {
-    this.titleService.setTitle(this.title);
+    this.titleService.setTitle($localize`${this.title}`);
   }
 
 }
